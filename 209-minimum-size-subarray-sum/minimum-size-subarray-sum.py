@@ -15,9 +15,5 @@ class Solution(object):
         return ans    
                     
 
-        """
-        :type target: int
-        :type nums: List[int]
-        :rtype: int
-        """
+       
         
