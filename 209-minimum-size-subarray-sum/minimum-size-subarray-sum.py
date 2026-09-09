@@ -3,7 +3,7 @@ class Solution(object):
         left=0
         total=0
         ans=float('inf')
-        for right in range(len(nums)):
+        for right in range (len(nums)):
             total+=nums[right]
             while total>=target:
                 ans=min(ans,right-left+1)
@@ -11,9 +11,12 @@ class Solution(object):
                 left+=1
         if ans==float('inf'):
             return 0
+            
 
-        return ans    
-                    
-
-       
+        return ans        
+        """
+        :type target: int
+        :type nums: List[int]
+        :rtype: int
+        """
         
