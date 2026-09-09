@@ -38,9 +38,6 @@ class Solution(object):
             return ""
 
         return s[start:start + min_len]
-        """
-        :type s: str
-        :type t: str
-        :rtype: str
-        """
+    
+
         
